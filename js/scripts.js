@@ -44,7 +44,7 @@
 // });
 
 $(document).ready(function() {
-  $("#blanks form").submit(function() {
+  $("#formOne").submit(function() {
     alert('Got to beginning of form submit!');
     var blanks = ["person1", "person2", "animal", "exclamation", "verb", "noun"];
 
